@@ -13,6 +13,7 @@ library(tidyverse)
 pie_crab
 ```
 
+
 ```{r}
 
 exploratory <- ggplot(pie_crab, aes(x = size, y = latitude)) +
@@ -21,4 +22,3 @@ exploratory <- ggplot(pie_crab, aes(x = size, y = latitude)) +
 
 exploratory
 ```
-
