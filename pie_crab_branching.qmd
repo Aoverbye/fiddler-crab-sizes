@@ -6,8 +6,19 @@ editor: visual
 editor_options: 
   chunk_output_type: console
 ---
+
 ```{r}
 library(lterdatasampler)
 library(tidyverse)
+pie_crab
 ```
 
+
+```{r}
+
+exploratory <- ggplot(pie_crab, aes(x = size, y = latitude)) +
+  geom_point()
+
+
+exploratory
+```
